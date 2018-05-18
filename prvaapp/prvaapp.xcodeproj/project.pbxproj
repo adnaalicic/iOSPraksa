@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A92E14720AC41C900AF265A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A92E14620AC41C900AF265A /* AppDelegate.m */; };
+		6A92E14A20AC41C900AF265A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A92E14920AC41C900AF265A /* ViewController.m */; };
+		6A92E14D20AC41C900AF265A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A92E14B20AC41C900AF265A /* Main.storyboard */; };
+		6A92E15020AC41C900AF265A /* prvaapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A92E14E20AC41C900AF265A /* prvaapp.xcdatamodeld */; };
+		6A92E15220AC41C900AF265A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A92E15120AC41C900AF265A /* Assets.xcassets */; };
+		6A92E15520AC41C900AF265A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A92E15320AC41C900AF265A /* LaunchScreen.storyboard */; };
+		6A92E15820AC41C900AF265A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A92E15720AC41C900AF265A /* main.m */; };
+		6A92E16220AC41C900AF265A /* prvaappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A92E16120AC41C900AF265A /* prvaappTests.m */; };
+		6A92E16D20AC41C900AF265A /* prvaappUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A92E16C20AC41C900AF265A /* prvaappUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A92E15E20AC41C900AF265A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A92E13A20AC41C900AF265A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A92E14120AC41C900AF265A;
+			remoteInfo = prvaapp;
+		};
+		6A92E16920AC41C900AF265A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A92E13A20AC41C900AF265A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A92E14120AC41C900AF265A;
+			remoteInfo = prvaapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A92E14220AC41C900AF265A /* prvaapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prvaapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A92E14520AC41C900AF265A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6A92E14620AC41C900AF265A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6A92E14820AC41C900AF265A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6A92E14920AC41C900AF265A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6A92E14C20AC41C900AF265A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A92E14F20AC41C900AF265A /* prvaapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = prvaapp.xcdatamodel; sourceTree = "<group>"; };
+		6A92E15120AC41C900AF265A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A92E15420AC41C900AF265A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A92E15620AC41C900AF265A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A92E15720AC41C900AF265A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A92E15D20AC41C900AF265A /* prvaappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = prvaappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A92E16120AC41C900AF265A /* prvaappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = prvaappTests.m; sourceTree = "<group>"; };
+		6A92E16320AC41C900AF265A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A92E16820AC41C900AF265A /* prvaappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = prvaappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A92E16C20AC41C900AF265A /* prvaappUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = prvaappUITests.m; sourceTree = "<group>"; };
+		6A92E16E20AC41C900AF265A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A92E13F20AC41C900AF265A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A92E15A20AC41C900AF265A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A92E16520AC41C900AF265A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A92E13920AC41C900AF265A = {
+			isa = PBXGroup;
+			children = (
+				6A92E14420AC41C900AF265A /* prvaapp */,
+				6A92E16020AC41C900AF265A /* prvaappTests */,
+				6A92E16B20AC41C900AF265A /* prvaappUITests */,
+				6A92E14320AC41C900AF265A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A92E14320AC41C900AF265A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A92E14220AC41C900AF265A /* prvaapp.app */,
+				6A92E15D20AC41C900AF265A /* prvaappTests.xctest */,
+				6A92E16820AC41C900AF265A /* prvaappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A92E14420AC41C900AF265A /* prvaapp */ = {
+			isa = PBXGroup;
+			children = (
+				6A92E14520AC41C900AF265A /* AppDelegate.h */,
+				6A92E14620AC41C900AF265A /* AppDelegate.m */,
+				6A92E14820AC41C900AF265A /* ViewController.h */,
+				6A92E14920AC41C900AF265A /* ViewController.m */,
+				6A92E14B20AC41C900AF265A /* Main.storyboard */,
+				6A92E15120AC41C900AF265A /* Assets.xcassets */,
+				6A92E15320AC41C900AF265A /* LaunchScreen.storyboard */,
+				6A92E15620AC41C900AF265A /* Info.plist */,
+				6A92E15720AC41C900AF265A /* main.m */,
+				6A92E14E20AC41C900AF265A /* prvaapp.xcdatamodeld */,
+			);
+			path = prvaapp;
+			sourceTree = "<group>";
+		};
+		6A92E16020AC41C900AF265A /* prvaappTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A92E16120AC41C900AF265A /* prvaappTests.m */,
+				6A92E16320AC41C900AF265A /* Info.plist */,
+			);
+			path = prvaappTests;
+			sourceTree = "<group>";
+		};
+		6A92E16B20AC41C900AF265A /* prvaappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A92E16C20AC41C900AF265A /* prvaappUITests.m */,
+				6A92E16E20AC41C900AF265A /* Info.plist */,
+			);
+			path = prvaappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A92E14120AC41C900AF265A /* prvaapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A92E17120AC41C900AF265A /* Build configuration list for PBXNativeTarget "prvaapp" */;
+			buildPhases = (
+				6A92E13E20AC41C900AF265A /* Sources */,
+				6A92E13F20AC41C900AF265A /* Frameworks */,
+				6A92E14020AC41C900AF265A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = prvaapp;
+			productName = prvaapp;
+			productReference = 6A92E14220AC41C900AF265A /* prvaapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A92E15C20AC41C900AF265A /* prvaappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A92E17420AC41C900AF265A /* Build configuration list for PBXNativeTarget "prvaappTests" */;
+			buildPhases = (
+				6A92E15920AC41C900AF265A /* Sources */,
+				6A92E15A20AC41C900AF265A /* Frameworks */,
+				6A92E15B20AC41C900AF265A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A92E15F20AC41C900AF265A /* PBXTargetDependency */,
+			);
+			name = prvaappTests;
+			productName = prvaappTests;
+			productReference = 6A92E15D20AC41C900AF265A /* prvaappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A92E16720AC41C900AF265A /* prvaappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A92E17720AC41C900AF265A /* Build configuration list for PBXNativeTarget "prvaappUITests" */;
+			buildPhases = (
+				6A92E16420AC41C900AF265A /* Sources */,
+				6A92E16520AC41C900AF265A /* Frameworks */,
+				6A92E16620AC41C900AF265A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A92E16A20AC41C900AF265A /* PBXTargetDependency */,
+			);
+			name = prvaappUITests;
+			productName = prvaappUITests;
+			productReference = 6A92E16820AC41C900AF265A /* prvaappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A92E13A20AC41C900AF265A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Atlantbh Guest";
+				TargetAttributes = {
+					6A92E14120AC41C900AF265A = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					6A92E15C20AC41C900AF265A = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 6A92E14120AC41C900AF265A;
+					};
+					6A92E16720AC41C900AF265A = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 6A92E14120AC41C900AF265A;
+					};
+				};
+			};
+			buildConfigurationList = 6A92E13D20AC41C900AF265A /* Build configuration list for PBXProject "prvaapp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A92E13920AC41C900AF265A;
+			productRefGroup = 6A92E14320AC41C900AF265A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A92E14120AC41C900AF265A /* prvaapp */,
+				6A92E15C20AC41C900AF265A /* prvaappTests */,
+				6A92E16720AC41C900AF265A /* prvaappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A92E14020AC41C900AF265A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A92E15520AC41C900AF265A /* LaunchScreen.storyboard in Resources */,
+				6A92E15220AC41C900AF265A /* Assets.xcassets in Resources */,
+				6A92E14D20AC41C900AF265A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A92E15B20AC41C900AF265A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A92E16620AC41C900AF265A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A92E13E20AC41C900AF265A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A92E14A20AC41C900AF265A /* ViewController.m in Sources */,
+				6A92E14720AC41C900AF265A /* AppDelegate.m in Sources */,
+				6A92E15820AC41C900AF265A /* main.m in Sources */,
+				6A92E15020AC41C900AF265A /* prvaapp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A92E15920AC41C900AF265A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A92E16220AC41C900AF265A /* prvaappTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A92E16420AC41C900AF265A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A92E16D20AC41C900AF265A /* prvaappUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A92E15F20AC41C900AF265A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A92E14120AC41C900AF265A /* prvaapp */;
+			targetProxy = 6A92E15E20AC41C900AF265A /* PBXContainerItemProxy */;
+		};
+		6A92E16A20AC41C900AF265A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A92E14120AC41C900AF265A /* prvaapp */;
+			targetProxy = 6A92E16920AC41C900AF265A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A92E14B20AC41C900AF265A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A92E14C20AC41C900AF265A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A92E15320AC41C900AF265A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A92E15420AC41C900AF265A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A92E16F20AC41C900AF265A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6A92E17020AC41C900AF265A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A92E17220AC41C900AF265A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = prvaapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = adna.prvaapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A92E17320AC41C900AF265A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = prvaapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = adna.prvaapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6A92E17520AC41C900AF265A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = prvaappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = adna.prvaappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/prvaapp.app/prvaapp";
+			};
+			name = Debug;
+		};
+		6A92E17620AC41C900AF265A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = prvaappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = adna.prvaappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/prvaapp.app/prvaapp";
+			};
+			name = Release;
+		};
+		6A92E17820AC41C900AF265A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = prvaappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = adna.prvaappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = prvaapp;
+			};
+			name = Debug;
+		};
+		6A92E17920AC41C900AF265A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = prvaappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = adna.prvaappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = prvaapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A92E13D20AC41C900AF265A /* Build configuration list for PBXProject "prvaapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A92E16F20AC41C900AF265A /* Debug */,
+				6A92E17020AC41C900AF265A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A92E17120AC41C900AF265A /* Build configuration list for PBXNativeTarget "prvaapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A92E17220AC41C900AF265A /* Debug */,
+				6A92E17320AC41C900AF265A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A92E17420AC41C900AF265A /* Build configuration list for PBXNativeTarget "prvaappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A92E17520AC41C900AF265A /* Debug */,
+				6A92E17620AC41C900AF265A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A92E17720AC41C900AF265A /* Build configuration list for PBXNativeTarget "prvaappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A92E17820AC41C900AF265A /* Debug */,
+				6A92E17920AC41C900AF265A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6A92E14E20AC41C900AF265A /* prvaapp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6A92E14F20AC41C900AF265A /* prvaapp.xcdatamodel */,
+			);
+			currentVersion = 6A92E14F20AC41C900AF265A /* prvaapp.xcdatamodel */;
+			path = prvaapp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6A92E13A20AC41C900AF265A /* Project object */;
+}
